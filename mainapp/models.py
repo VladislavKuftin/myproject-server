@@ -5,7 +5,7 @@ from django.db import models
 
 class ProductCategory(models.Model):
     name = models.CharField(max_length=64, blank=True, unique=True, verbose_name='Название')
-    description = models.TextField(verbose_name='описание')
+    description = models.TextField(verbose_name='описание', blank=True)
 
     def __str__(self):
         return f'{self.name}'

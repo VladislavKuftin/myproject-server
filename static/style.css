@@ -88,6 +88,12 @@ html, body {
 	position: absolute;
 	top: 63px;
 	left: 1210px;
+	text-decoration: none;
+	padding-left: 27px;
+	background-repeat: no-repeat;
+	color: #555;
+	font-weight: bold;
+
 }
 
 .clearfix:after {
@@ -1070,3 +1076,4 @@ td:first-child {
 .related-products a:hover .text{
 	display: block;
 }
+
